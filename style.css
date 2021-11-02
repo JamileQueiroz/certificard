@@ -5,42 +5,49 @@ body {
 }
 
 .container {
-  margin: 64px;
+  margin: 5%;
   background: #FFFFED;
   color: #1C1C1C;
   border-radius: 20px;
-  padding: 64px;
+  padding: 5%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .cabecalho {
-  display: flex;
+  display: block;
   justify-content: space-between;
 }
 
 .perfil {
-  display: flex;
+  display: block;
 }
 
 .perfil-foto {
-  max-width: 160px;
-  border-radius: 460px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .titulo {
-  margin-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .titulo h1 {
-  font-weight: 700;
-  font-size: 36px;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  font-weight: bold;
 }
 
-.titulo h3 {
-  font-weight: normal;
-  font-size: 24px;
-}
 
 .tema button {
   align-self: flex-end;
@@ -54,14 +61,15 @@ body {
 
 .portfolio {
   margin-top: 64px;
+  width: 150%;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 16px;
+  gap: 5%;
 }
 
 .projetos {
   max-height: 300px;
-  width: 800px;
+  width: auto;
   overflow-y: scroll;
   scrollbar-width: thin;
   display: flex;
